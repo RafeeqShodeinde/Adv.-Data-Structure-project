@@ -8,4 +8,4 @@ To initialize the heap instance simply make a call to the Heap class such as **f
 
 For the insert operation into our heap object Fib this is performed by a simple call such as **fib.insert(key)**, where key is any integer on the number line. Currently we can insert any n number of nodes into the display screen, but since the screen is currently a fixed size, the node eventually go out of the display
 
-The find minimum and extract minimum operations are called by **fib.find_min()** & **fib.extract_min()**. Following an extract minimum operation, the find_min() operation should be called next to update the visual aid of the heap to show the new position of the min root node.
+The find minimum and extract minimum operations are called by **fib.find_min()** & **fib.extract_min()**. Following an extract minimum operation, the find_min() operation should be called after to update the visual aid of the heap to show the new position of the min root node.
